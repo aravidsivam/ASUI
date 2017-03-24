@@ -1,0 +1,26 @@
+﻿
+.as-dg-container {
+    min-width: 300px;
+
+    &.nowidth {
+        max-width: 450px;
+    }
+}
+
+.as-cmd-title {
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+.as-dg-content {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.as-cmd-footer {
+    padding-top: 20px;
+    text-align: right;
+    clear: both;
+}
