@@ -1,0 +1,11 @@
+﻿<div class="as-dg-overlay"></div>
+<div class="as-dg as-model" [ngClass]="SetClasses()" [asDraggable]="{handle:'.as-dg-title',disabled:!option.Draggable}">
+    <div class="as-dg-align"></div>
+    <div class="as-dg-container" [ngStyle]="style" #dgModel>
+        <div class="as-dg-title" #dgModelHeader>
+            <span [innerHtml]="option.Title" class="title"></span>
+            <span class="as-dg-close" (click)="OnCloseClicked()" *ngIf="closeEnabled">&times;</span>
+        </div>
+        <div class="as-dg-content"><span #dgModelContent></span></div>
+    </div>
+</div>
